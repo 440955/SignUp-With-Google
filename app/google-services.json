@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "926337611108",
+    "project_id": "signup-with-ac444",
+    "storage_bucket": "signup-with-ac444.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926337611108:android:bfadf3f537b1c02d0f3671",
+        "android_client_info": {
+          "package_name": "com.arafat.signupwithgoogle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqvlGlOAwFRNDgi2rpQDS3FJi7VIHimDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
