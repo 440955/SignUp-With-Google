@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Signup_Page"
-    android:id="@+id/signMotherLayout"
+    tools:context=".Login_Page"
+    android:id="@+id/loginMotherLayout"
     android:orientation="vertical"
     android:background="#53F264"
     android:gravity="center">
@@ -22,24 +22,24 @@
             android:layout_marginBottom="20dp"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:text="Sign Up"
+            android:text="Login"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <com.google.android.material.textfield.TextInputLayout
+            app:hintTextColor="#12A232"
             app:boxStrokeColor="#12A232"
             android:hint="Enter Your Email Address"
             android:textColorHint="#94000000"
-            app:hintTextColor="#12A232"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/signUpEmail"
+                android:id="@+id/loninEmail"
                 android:textColor="@color/black"
                 android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
             app:endIconTint="#12A232"
             app:endIconMode="password_toggle"
             android:layout_marginTop="5dp"
-            android:hint="Enter New Password"
+            android:hint="Enter Password"
             android:textColorHint="#94000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -61,39 +61,18 @@
             android:layout_height="wrap_content"
             >
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/signUpPin"
+                android:id="@+id/loginPassword"
                 android:textColor="@color/black"
-                android:inputType="numberDecimal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            app:hintTextColor="#12A232"
-            app:endIconTint="#12A232"
-            app:boxStrokeColor="#12A232"
-            app:endIconMode="password_toggle"
-            android:layout_marginTop="5dp"
-            android:hint="Confirm Password"
-            android:textColorHint="#94000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/signUpConfirmPin"
-                android:textColor="@color/black"
-                android:inputType="numberDecimal"
+                android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button
-            android:id="@+id/signUpButton"
+            android:id="@+id/loginButton"
             android:textSize="20sp"
-            android:text="Sign Up"
+            android:text="Login"
             android:textColor="@color/white"
             android:backgroundTint="#12A232"
             android:layout_margin="20dp"
@@ -101,22 +80,21 @@
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:id="@+id/extraLoginText"
+            android:id="@+id/extraSignUpText"
             android:layout_marginBottom="20dp"
             android:textSize="17sp"
-            android:text="already have an account? Login"
+            android:text="Do not have any account? Sign Up"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-
         <ProgressBar
-            android:id="@+id/proBar"
+            android:id="@+id/loginProBar"
             android:visibility="gone"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
 
 
 

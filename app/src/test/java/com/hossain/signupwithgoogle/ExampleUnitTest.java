@@ -1,4 +1,4 @@
-package com.arafat.signupwithgoogle;
+package com.hossain.signupwithgoogle;
 
 import org.junit.Test;
 
