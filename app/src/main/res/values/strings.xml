@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SignUp With Google</string>
+
+    <string name="web_client_id">392956669167-55bsb4ra5jn18mhdk572763s200rri5q.apps.googleusercontent.com</string>
 </resources>

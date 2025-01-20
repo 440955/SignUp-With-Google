@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "464513234281",
-    "project_id": "myauthenticationdemo-41411",
-    "storage_bucket": "myauthenticationdemo-41411.firebasestorage.app"
+    "project_number": "392956669167",
+    "project_id": "authentication-1474f",
+    "storage_bucket": "authentication-1474f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:464513234281:android:95a4dffd57df7ee8ea39f8",
+        "mobilesdk_app_id": "1:392956669167:android:07b0819eb1c880ed3e3f1a",
         "android_client_info": {
-          "package_name": "com.hossain.signupwithgoogle"
+          "package_name": "com.dbjon.signupwithgoogle"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "392956669167-t7d65u3hil1t5v883v9os1srdbo3jvg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbjon.signupwithgoogle",
+            "certificate_hash": "b04bc60b209dc23ba217a66db7601134e085e4ec"
+          }
+        },
+        {
+          "client_id": "392956669167-55bsb4ra5jn18mhdk572763s200rri5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyAL-xxQRxb9sofrJ5zxVzPXuBMRpFsa2E8"
+          "current_key": "AIzaSyDzpEB2pBANe6iXmnCdY8PGb2oSq0MZdmo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392956669167-55bsb4ra5jn18mhdk572763s200rri5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

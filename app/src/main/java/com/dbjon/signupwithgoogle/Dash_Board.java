@@ -1,4 +1,4 @@
-package com.hossain.signupwithgoogle;
+package com.dbjon.signupwithgoogle;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -55,14 +55,14 @@ public class Dash_Board extends AppCompatActivity {
 
         if (user!=null){
             String name = user.getDisplayName();
-            String email = user.getEmail();
             Uri photoUrl = user.getPhotoUrl();
             String imageLink= String.valueOf(user.getPhotoUrl());
-            String uid = user.getUid();
 
-            userName.setText(email);
+            userName.setText(name);
+            proPic.setImageURI(photoUrl);
             Picasso.get().load(imageLink)
                     .into(proPic);
+
         }
 
     }
